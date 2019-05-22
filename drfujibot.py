@@ -446,7 +446,7 @@ class DrFujiBot(drfujibot_irc.bot.SingleServerIRCBot):
                 # event name, bet dict
                 for (k, v) in self.config['closed_events'].items():
                     self.closed_events[k] = v
-            # ADDED DAILY MODE TO CONFIG BY ITALIANSPY
+            # ADDED DAILY MODE TO CONFIG BY ITALIANSPY AND ALSO A CHANGE TO MAKE A NEW BRANCH
             if self.config.get('daily_type'):
                 self.daily_type = self.config.get('daily_type')
             else:
